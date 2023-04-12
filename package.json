@@ -2,7 +2,7 @@
     "name": "hnswlib-wasm",
     "version": "1.0.0",
     "description": "Emnapi generated WebAssembly bindings for Hnswlib",
-    "main": "build/hnswlib-wasm.js",
+    "main": "dist/hnswlib-wasm.js",
     "types": "index.d.ts",
     "author": "Kaio Barbosa-Chifan",
     "license": "Apache-2.0",
