@@ -1,6 +1,6 @@
 # hnswlib-wasm
 
-`hnswlib-wasm` is a WebAssembly (WASM) binding for the HNSWLIB library, built on top of [hnswlib-node](https://github.com/yoshoku/hnswlib-node) using [Emnapi][https://github.com/toyobayashi/emnapi].
+`hnswlib-wasm` is a WebAssembly (WASM) binding for the HNSWLIB library, built on top of [hnswlib-node](https://github.com/yoshoku/hnswlib-node) using [Emnapi](https://github.com/toyobayashi/emnapi).
 
 
 ## Installation
