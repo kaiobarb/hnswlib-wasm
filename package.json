@@ -1,0 +1,29 @@
+{
+    "name": "hnswlib-wasm",
+    "version": "1.0.0",
+    "description": "Emnapi generated WebAssembly bindings for Hnswlib",
+    "main": "build/hnswlib-wasm.js",
+    "types": "lib/index.d.ts",
+    "author": "Kaio Barbosa-Chifan",
+    "license": "Apache-2.0",
+    "keywords": [
+        "hnswlib", "wasm", "WebAssembly", "emnapi", "emscripten", "bindings"
+    ],
+    "scripts": {
+        "test": "jest",
+        "build": "mkdir -p build && cd build && emcmake cmake .. && make"
+      },
+    "dependencies": {
+        "@emnapi/runtime": "^0.36.3"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.21.4",
+        "@types/node": "^18.13.0",
+        "emnapi": "^0.36.3",
+        "eslint": "^8.10.0",
+        "eslint-plugin-node": "^11.1.0",
+        "jest": "^29.3.1",
+        "jest-extended": "^3.2.4",
+        "typescript": "^5.0.4"
+    }
+}
