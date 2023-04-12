@@ -1,6 +1,6 @@
 # hnswlib-wasm
 
-`hnswlib-wasm` is a WebAssembly (WASM) binding for the HNSWLIB library, built on top of (hnswlib-node)[https://github.com/yoshoku/hnswlib-node] using (Emnapi)[https://github.com/toyobayashi/emnapi].
+`hnswlib-wasm` is a WebAssembly (WASM) binding for the HNSWLIB library, built on top of [hnswlib-node](https://github.com/yoshoku/hnswlib-node) using [Emnapi][https://github.com/toyobayashi/emnapi].
 
 
 ## Installation
@@ -40,9 +40,13 @@ import hnswlibModule from 'hnswlib-wasm';
 })();
 ```
 ## API
-Since this library is built on top of (hnswlib-node)[https://github.com/yoshoku/hnswlib-node], the api is exactly the same as those listed (here)[https://yoshoku.github.io/hnswlib-node/doc/]. The only difference in usage is the presence of the web assembly module. Using the web assembly module is illustrated in the example given above.
+Since this library is built on top of [hnswlib-node](https://github.com/yoshoku/hnswlib-node), the api is exactly the same as those listed [here](https://yoshoku.github.io/hnswlib-node/doc/). The only difference in usage is the presence of the web assembly module. Using the web assembly module is illustrated in the example given above.
 
 ## Building the library
+You will need:
+- emscripten `>= 3.1.9`
+- cmake
+- emnapi
 
 To build the library, you can use the following npm script:
 
@@ -64,5 +68,5 @@ npm test
 hnswlib-wasm is licensed under the Apache-2.0 License.
 
 ## Acknowledgements
-These bindings were created on top of the (hnswlib-node)[https://github.com/yoshoku/hnswlib-node] package.
-The (emnapi)[https://github.com/toyobayashi/emnapi] library was invaluable in the creation of these bindings.
+These bindings were created on top of the [hnswlib-node](https://github.com/yoshoku/hnswlib-node) package.
+The [emnapi](https://github.com/toyobayashi/emnapi) library was invaluable in the creation of these bindings.
